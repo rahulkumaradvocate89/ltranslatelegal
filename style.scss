@@ -294,6 +294,14 @@ textarea::-ms-input-placeholder {
 }
 
 /*For Home Section*/
+.banner{
+    .home-content{
+        p{
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}
 
 .banner-1 {
   background: url(assets/images/carousal/banner-1.jpg) no-repeat top;
@@ -327,7 +335,6 @@ textarea::-ms-input-placeholder {
   width: 100%;
   overflow: hidden;
 }
-
 .banner-4 {
   background: url(assets/images/carousal/banner-4.jpg) no-repeat top;
   background-size: cover;
@@ -764,4 +771,10 @@ textarea::-ms-input-placeholder {
   text-align: center;
   font-weight: bolder;
   font-size: x-large;
+}
+
+
+.logo{
+width:100px;
+height:130px;
 }
