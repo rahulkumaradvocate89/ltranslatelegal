@@ -9,6 +9,8 @@
 @import "menu";
 @import "scrollup";
 @import "section";
+@import "contacts";
+@import "carousal";
 
 /*==========================================
 PRE LOADER 
@@ -607,27 +609,6 @@ textarea::-ms-input-placeholder {
   font-size: 14px;
 }
 
-.carousel-indicators {
-  bottom: -10px;
-  left: 50%;
-}
-
-.carousel-indicators li {
-  display: inline-block;
-  width: 30px;
-  height: 7px;
-  background-color: none;
-  background-color: #c1eafb;
-  border: 0;
-  border-radius: 0;
-}
-
-.carousel-indicators .active {
-  width: 20px;
-  height: 8px;
-  background-color: #44bcff;
-  border: 0;
-}
 
 /* For Download Section*/
 .download-content {
