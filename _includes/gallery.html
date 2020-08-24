@@ -1,5 +1,5 @@
 <!-- Sections -->
-<section id="gallery" class="sections light-dark-bg">
+<section class="sections light-dark-bg" id="gallery">
     <div class="container text-center">
         <div class="heading-content">
             <h3>Our Gallery</h3>
@@ -11,7 +11,7 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="gallery-item">
                     <div class="gallery">
-                        <img src="assets/images/gallery/{{item.url}}" alt=""/>
+                        <img alt="" src="assets/images/gallery/{{item.url}}"/>
                         <h6>{{item.title}}</h6>
                         <div class="img-overlay"></div>
                         <div class="gallery-icon">
@@ -26,7 +26,7 @@
         {% endfor %}
         <div class="container">
             <div class="col-md-12 text-center">
-                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#allGallery">
+                <button class="btn btn-info btn-lg" data-target="#allGallery" data-toggle="modal" type="button">
                     <b>
                         View More
                     </b>

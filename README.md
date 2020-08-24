@@ -1,2 +1,2 @@
 ### 
-J Bastavi Global Legal solutions
+J Bastavi Global Legal Solutions

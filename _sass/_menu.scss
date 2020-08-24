@@ -29,33 +29,36 @@
 }
 
 .navbar-brand {
-    display: flex;
+  display: flex;
+  color: $white;
+  padding: 10px 0;
+
+  .header-logo {
+    height: 50px;
+    width: 70px;
+    padding-right: 30px;
+  }
+
+  .brand-title {
+    font-size: 20px;
+    color: $white
+  }
+
+  .brand-subtitle {
+    font-size: 10px;
     color: $white;
-    padding: 10px 0;
-    .header-logo{
-        height: 50px;
-        width: 70px;
-        padding-right: 30px;
-    }
-    .brand-title{
-        font-size: 20px;
-        color: $white
-    }
-    .brand-subtitle{
-        font-size: 10px;
-        color: $white;
-    }
+  }
 }
 
-@media(max-width: 991px){
-    .navbar-header{
-        margin-bottom: 0px;
-    }
+@media(max-width: 991px) {
+  .navbar-header {
+    margin-bottom: 0px;
+  }
 
-      #bs-example-navbar-collapse-1{
-            background-color: #464347f0;
-        }
-        .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-          border-top:none;
-        }
+  #bs-example-navbar-collapse-1 {
+    background-color: #464347f0;
+  }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    border-top: none;
+  }
 }
