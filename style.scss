@@ -267,78 +267,7 @@ textarea::-ms-input-placeholder {
 }
 
 /*For Home Section*/
-.banner {
-  .home-content {
-    p {
-      color: #fff;
-      font-weight: bold;
-    }
-  }
-}
 
-.banner-1 {
-  background: url(assets/images/carousal/banner-1.jpg) no-repeat top;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  min-height: 700px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.banner-2 {
-  background: url(assets/images/carousal/banner-2.jpg) no-repeat top;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  min-height: 700px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.banner-3 {
-  background: url(assets/images/carousal/banner-3.jpg) no-repeat top;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  min-height: 700px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.banner-4 {
-  background: url(assets/images/carousal/banner-4.jpg) no-repeat top;
-  background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  min-height: 700px;
-  width: 100%;
-  overflow: hidden;
-}
-
-.home-content {
-  color: #f9f9fd;
-  margin-top: 280px;
-}
-
-.home-content h1 {
-  font-size: 40px;
-  font-family: 'latolight';
-}
-
-.home-content h1 span {
-  font-family: 'latobold';
-  color: #fff;
-}
-
-.home-content p {
-  margin: 30px 0;
-
-}
 
 .available {
   margin-top: 50px;
@@ -573,7 +502,6 @@ textarea::-ms-input-placeholder {
 }
 
 /* For Testimonial Section*/
-
 .testimonial-photo {
   text-align: right;
   background: url(assets/images/testimonial.png) no-repeat right top;
@@ -598,7 +526,6 @@ textarea::-ms-input-placeholder {
 
 .item {
   color: #4bcaff;
-
 }
 
 .item p {
@@ -611,7 +538,6 @@ textarea::-ms-input-placeholder {
   font-size: 14px;
 }
 
-
 /* For Download Section*/
 .download-content {
   padding: 50px;
@@ -622,7 +548,6 @@ textarea::-ms-input-placeholder {
 .logo-img {
   width: 200px;
   height: 130px;
-
 }
 
 .download-content h1 {
@@ -637,7 +562,6 @@ textarea::-ms-input-placeholder {
 
 /* For Contact Section*/
 #map {
-
   height: 650px;
   width: 100%;
   position: relative;
@@ -660,7 +584,6 @@ textarea::-ms-input-placeholder {
   -webkit-box-shadow: 1px 1px 1px 0 rgba(55, 50, 40, .10);
   -moz-box-shadow: 1px 1px 1px 0 rgba(55, 50, 40, .10);
   -ms-box-shadow: 1px 1px 1px 0 rgba(55, 50, 40, .10);
-
 }
 
 .contact-form-area form h3 {
@@ -682,7 +605,6 @@ textarea::-ms-input-placeholder {
 
 .contact-form-area form .contact-btn:hover {
   background: #fff;
-
 }
 
 /* For Footer Section*/
@@ -693,7 +615,6 @@ textarea::-ms-input-placeholder {
 .copyright a {
   color: #4bcaff;
 }
-
 
 .container-fluid {
   padding: 0;
@@ -726,8 +647,12 @@ textarea::-ms-input-placeholder {
   font-size: x-large;
 }
 
-
 .logo {
   width: 100px;
   height: 130px;
+}
+
+
+.list-group-item {
+  font-size: 12px;
 }
