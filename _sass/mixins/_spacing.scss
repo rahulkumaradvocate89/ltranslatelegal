@@ -1,0 +1,56 @@
+@mixin margins($suffix, $value) {
+  .m--#{$suffix} {
+    margin: $value
+  }
+  .ml--#{$suffix} {
+    margin-left: $value
+  }
+  .mr--#{$suffix} {
+    margin-right: $value
+  }
+  .mt--#{$suffix} {
+    margin-top: $value
+  }
+  .mb--#{$suffix} {
+    margin-bottom: $value
+  }
+
+  .mx--#{$suffix} {
+    margin-left: $value;
+    margin-right: $value;
+  }
+  .my--#{$suffix} {
+    margin-top: $value;
+    margin-bottom: $value;
+  }
+
+}
+
+@mixin paddings($suffix, $value) {
+  .p--#{$suffix} {
+    padding: $value
+  }
+  .pl--#{$suffix} {
+    padding-left: $value
+  }
+  .pr--#{$suffix} {
+    padding-right: $value
+  }
+  .pt--#{$suffix} {
+    padding-top: $value
+  }
+  .pb--#{$suffix} {
+    padding-bottop: $value
+  }
+
+  .px--#{$suffix} {
+    padding-left: $value;
+    padding-right: $value;
+  }
+  .py--#{$suffix} {
+    padding-top: $value;
+    padding-bottom: $value;
+  }
+
+}
+

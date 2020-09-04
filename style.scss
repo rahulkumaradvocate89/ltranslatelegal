@@ -1,6 +1,6 @@
 ---
 ---
-
+@import "mixins/_spacing.scss";
 @import "colors";
 @import "responsive";
 @import "lato-webfont";
@@ -12,6 +12,7 @@
 @import "section";
 @import "contacts";
 @import "carousal";
+@import "spacing";
 
 /*==========================================
 PRE LOADER 
@@ -504,15 +505,14 @@ textarea::-ms-input-placeholder {
 /* For Testimonial Section*/
 .testimonial-photo {
   text-align: right;
-  background: url(assets/images/testimonial.png) no-repeat right top;
   width: 100%;
   height: 175px;
 
 }
 
 .testimonial-photo img {
-  height: 120px;
-  width: 120px;
+  height: 160px;
+  width: 160px;
   border: 5px solid #fff;
   border-radius: 100%;
   background: #fff;
@@ -522,10 +522,14 @@ textarea::-ms-input-placeholder {
 
 .testimonial-content {
   margin-top: 40px;
+  color: darkgreen;
+  p {
+    font-size: 16px;
+  }
 }
 
 .item {
-  color: #4bcaff;
+  color: #e3e9ec;
 }
 
 .item p {
