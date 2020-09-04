@@ -1,0 +1,4 @@
+@for $i from 0 through 12 {
+  @include  margins($i, $i * 8px !important);
+  @include  paddings($i, $i * 8px !important);
+}
